@@ -1,0 +1,3 @@
+[submodule "BlockBlast"]
+	path = BlockBlast
+	url = https://github.com/reunbozdo/BlockBlast
