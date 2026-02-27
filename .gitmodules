@@ -1,3 +1,6 @@
 [submodule "BlockBlast"]
 	path = BlockBlast
 	url = https://github.com/reunbozdo/BlockBlast
+[submodule "javascript-tetris"]
+	path = javascript-tetris
+	url = https://github.com/jakesgordon/javascript-tetris.git
