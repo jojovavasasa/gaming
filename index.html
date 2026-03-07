@@ -24,7 +24,7 @@
       const games = await res.json();
       container.innerHTML = games.map(g => `
         <p><a href="${g.playPath}" target="_blank" rel="noopener noreferrer">Play "${g.name}"</a></p>
-        <p><sub>by <a href="${g.repoUrl}" target="_blank" rel="noopener noreferrer">${g.author}</a>${g.description ? " — " + g.description : ""}</sub></p>
+        <p><sub>by <a href="${g.repoUrl}" target="_blank" rel="noopener noreferrer">${g.author}</a></sub></p>
       `).join("");
     } catch (e) {
       container.innerHTML = "<p>Failed to load games.</p>";
