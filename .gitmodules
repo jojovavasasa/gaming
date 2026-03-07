@@ -4,3 +4,21 @@
 [submodule "javascript-tetris"]
 	path = javascript-tetris
 	url = https://github.com/jakesgordon/javascript-tetris.git
+[submodule "EmojiCut"]
+	path = EmojiCut
+	url = https://github.com/kahwoo/EmojiCut
+[submodule "JumpMan"]
+	path = JumpMan
+	url = https://github.com/tsenterd/JumpMan
+[submodule "2048"]
+	path = 2048
+	url = https://github.com/elryan7/2048
+[submodule "Space-Invaders"]
+	path = Space-Invaders
+	url = https://github.com/jojovavasasa/Space-Invaders
+[submodule "snake"]
+	path = snake
+	url = https://github.com/nicolaou-dev/snake
+[submodule "ping-pong"]
+	path = ping-pong
+	url = https://github.com/jojovavasasa/ping-pong
