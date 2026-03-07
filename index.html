@@ -15,11 +15,23 @@
 <body>
 <h1>Welcome to My Page</h1>
 
-<p><a href="BlockBlast/index.html" target="_blank" rel="noopener noreferrer">Play "Block Blast"</a></p>  
-<p><sub>by <a href="https://github.com/reunbozdo/BlockBlast" target="_blank" rel="noopener noreferrer">reunbozdo</a></sub></p>  
-
-<p><a href="javascript-tetris/index.html" target="_blank" rel="noopener noreferrer">Play "Tetris"</a></p>  
-<p><sub>by <a href="https://github.com/jakesgordon/javascript-tetris" target="_blank" rel="noopener noreferrer">jakesgordon</a></sub></p>  
+<div id="games"><p>Loading games...</p></div>
+<script>
+  async function loadGames() {
+    const container = document.getElementById("games");
+    try {
+      const res = await fetch("/api/games");
+      const games = await res.json();
+      container.innerHTML = games.map(g => `
+        <p><a href="${g.playPath}" target="_blank" rel="noopener noreferrer">Play "${g.name}"</a></p>
+        <p><sub>by <a href="${g.repoUrl}" target="_blank" rel="noopener noreferrer">${g.author}</a>${g.description ? " — " + g.description : ""}</sub></p>
+      `).join("");
+    } catch (e) {
+      container.innerHTML = "<p>Failed to load games.</p>";
+    }
+  }
+  loadGames();
+</script>
 
 <footer>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY21obRctWgA8oa2N55VDgtT95Y-pmId1EwhOyNzCKnwoDAg/viewform?embedded=true" width="640" height="547" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
