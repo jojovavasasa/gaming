@@ -22,3 +22,6 @@
 [submodule "ping-pong"]
 	path = ping-pong
 	url = https://github.com/jojovavasasa/ping-pong
+[submodule "mario"]
+	path = mario
+	url = https://github.com/jojovavasasa/mario
