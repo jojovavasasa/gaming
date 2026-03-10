@@ -25,3 +25,6 @@
 [submodule "mario"]
 	path = mario
 	url = https://github.com/jojovavasasa/mario
+[submodule "slow-roads"]
+	path = slow-roads
+	url = https://github.com/TheGreatMaximus98/slow-roads
