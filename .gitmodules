@@ -28,3 +28,6 @@
 [submodule "slow-roads"]
 	path = slow-roads
 	url = https://github.com/TheGreatMaximus98/slow-roads
+[submodule "polytrack"]
+	path = polytrack
+	url = https://github.com/Joe-The-Chicken/polytrack
