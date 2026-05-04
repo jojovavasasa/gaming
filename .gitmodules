@@ -43,18 +43,12 @@
 [submodule "GeometryDash"]
 	path = GeometryDash
 	url = https://github.com/willmil11/GeometryDash
-[submodule "GDBrowser"]
-	path = GDBrowser
-	url = https://github.com/GDColon/GDBrowser
 [submodule "crossy-road"]
 	path = crossy-road
 	url = https://github.com/GeekBoySupreme/crossy-road
 [submodule "Bubble-Shooter"]
 	path = Bubble-Shooter
 	url = https://github.com/archhere/Bubble-Shooter
-[submodule "subway-sufers"]
-	path = subway-sufers
-	url = https://github.com/YESWANTH2008/subway-sufers
 [submodule "simple-chess-ai"]
 	path = simple-chess-ai
 	url = https://github.com/lhartikk/simple-chess-ai
@@ -64,9 +58,6 @@
 [submodule "Archers-Ragdoll-Physic"]
 	path = Archers-Ragdoll-Physic
 	url = https://github.com/NeplinGameStudio/Archers-Ragdoll-Physic
-[submodule "drive-mad"]
-	path = drive-mad
-	url = https://github.com/AnonymousBirb5100/drive-mad
 [submodule "physicsRus"]
 	path = physicsRus
 	url = https://github.com/juhl/physicsRus
