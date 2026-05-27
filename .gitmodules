@@ -61,3 +61,6 @@
 [submodule "physicsRus"]
 	path = physicsRus
 	url = https://github.com/juhl/physicsRus
+[submodule "CaptchaWare"]
+	path = CaptchaWare
+	url = https://github.com/jojovavasasa/CaptchaWare
