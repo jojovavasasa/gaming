@@ -64,3 +64,6 @@
 [submodule "CaptchaWare"]
 	path = CaptchaWare
 	url = https://github.com/jojovavasasa/CaptchaWare
+[submodule "escape-roads-3"]
+	path = escape-roads-3
+	url = https://github.com/nexoraroblox/escape-roads-3
