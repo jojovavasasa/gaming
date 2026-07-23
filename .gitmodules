@@ -67,3 +67,6 @@
 [submodule "escape-roads-3"]
 	path = escape-roads-3
 	url = https://github.com/nexoraroblox/escape-roads-3
+[submodule "monopoly"]
+	path = monopoly
+	url = https://github.com/intrepidcoder/monopoly
